@@ -53,12 +53,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context.cs" />
+    <Compile Include="RepositoryFactoryInitializer.cs" />
     <Compile Include="Model\ArticleIdentity.cs" />
     <Compile Include="Model\NewspaperIdentity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ArticleRepository.cs" />
     <Compile Include="Repository\NewspaperRepository.cs" />
-    <Compile Include="UnitFactory.cs" />
+    <Compile Include="RepositoryFactory.cs" />
     <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>

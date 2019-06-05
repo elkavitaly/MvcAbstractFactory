@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 using BLL.Infrastructure;
-using UI.Models;
+using DAL;
 
 namespace UI.Controllers
 {
@@ -10,7 +10,7 @@ namespace UI.Controllers
 
         public HomeController()
         {
-            _factory = Initializer.Initialize();
+            _factory = BLL.Infrastructure.RepositoryFactory.Instance;
         }
 
         public ActionResult Index()

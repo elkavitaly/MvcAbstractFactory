@@ -41,6 +41,7 @@
     <Compile Include="Infrastructure\IRepository.cs" />
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\IRepositoryFactory.cs" />
+    <Compile Include="Infrastructure\RepositoryFactory.cs" />
     <Compile Include="Model\Article.cs" />
     <Compile Include="Model\Newspaper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
